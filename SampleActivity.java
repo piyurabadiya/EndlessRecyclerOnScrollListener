@@ -16,7 +16,7 @@ public class SampleActivity extends ActionBarActivity {
         recyclerView.setOnScrollListener(new EndlessRecyclerOnScrollListener(linearLayoutManager) {
             @Override
             public void onLoadMore(int current_page) {
-                // do somthing...
+                // do something...
             }
         });
     }
